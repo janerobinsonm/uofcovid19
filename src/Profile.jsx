@@ -2,13 +2,14 @@ import React from "react"
 
 import { Container } from "react-bootstrap"
 
-function Contact() {
+function Profile() {
   return (
     <div>
       <Container fluid className="secondary-banner text-center text-white">
-        <h1>Contact Page</h1>
+        <h1>This is Profile Page</h1>
       </Container>
+
     </div>
   )
 }
-export default Contact;
+export default Profile;
